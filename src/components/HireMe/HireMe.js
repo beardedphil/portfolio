@@ -20,7 +20,6 @@ Modal.setAppElement('#root');
 
 const HireMe = () => {
     const [name, setName] = useState('');
-    const [company, setCompany] = useState('');
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
