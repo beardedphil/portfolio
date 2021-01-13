@@ -1,4 +1,5 @@
 import React from 'react';
+import HireMe from '../HireMe/HireMe';
 
 const Header = () => {
     return (
@@ -6,7 +7,7 @@ const Header = () => {
             <div className="nav-container">
                 <header>
                     <a href="/" className="logo">Phil King</a>
-                    <a href="/" className="hire-me">Hire me</a>
+                    <HireMe />
                 </header>
                 <div className="social-right">
                     <ul>

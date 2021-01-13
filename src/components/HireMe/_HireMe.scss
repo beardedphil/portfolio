@@ -1,0 +1,36 @@
+.hire-me {
+  background: $charcoal;
+  color: $orange !important;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Poppins', arial, sans-serif;
+  font-size: 1.1em;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+
+.hire-me-mailing {
+  background: $green;
+}
+
+.email-form {
+  display: flex;
+  flex-flow: column wrap;
+  line-height: 3em;
+}
+
+.email-form input, textarea {
+  background: $platinum;
+  font-family: 'Poppins', arial, sans-serif;
+  font-size: $medium;
+}
+
+.email-form input {
+  height: 2em;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}

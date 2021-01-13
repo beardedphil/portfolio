@@ -1,4 +1,5 @@
 import React from 'react';
+import HireMe from '../HireMe/HireMe';
 
 const Footer = () => {
     return (
@@ -20,7 +21,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <a href="/" className="hire-me">Hire me</a>
+                    <HireMe />
                 </footer>
                 <div className="social-right">
                     <ul>
