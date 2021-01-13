@@ -1,0 +1,22 @@
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1050px) {
+  section {
+    padding: 4em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  section {
+    padding: 10em 10em 4em 10em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  section {
+    padding: 6em 20em 4em 20em;
+  }
+}
