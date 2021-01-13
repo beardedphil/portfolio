@@ -44,16 +44,16 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .featured, .portfolio {
+  .featured {
     text-align: left;
   }
 
-  .featured, .portfolio-container {
+  .featured {
     display: grid;
     grid-template-columns: 40% auto;
   }
 
-  .left, .portfolio-left {
+  .left {
     display: grid;
     place-content: center;
   }

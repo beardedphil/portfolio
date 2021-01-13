@@ -36,6 +36,7 @@
     }
 
     .social-right {
+      background: $platinum;
       display: unset;
       padding: 2em 4em 0 0;
     }
@@ -58,13 +59,13 @@
 
   @media only screen and (min-width: 1250px) {
     footer {
-      padding: 2em 4em 2em 10em;
+      padding: 2em 4em 2em 10em !important;
     }
   }
 
   @media only screen and (min-width: 1550px) {
     footer {
-      padding: 2em 4em 2em 20em;
+      padding: 2em 4em 2em 20em !important;
     }
   }
 }

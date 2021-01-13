@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const Skills = () => {
     useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
         gsap.from(".transition3", {
             scrollTrigger: {
                 trigger: '.transition3',

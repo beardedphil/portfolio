@@ -1,0 +1,44 @@
+.portfolio {
+  background: $platinum;
+}
+
+.portfolio-container a img {
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 800px) {
+  .portfolio {
+    text-align: left;
+  }
+
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+
+  .portfolio-left {
+    display: grid;
+    place-content: center;
+  }
+
+  .right {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+
+  .portfolio {
+    padding-top: 7em;
+  }
+
+  .portfolio-container img {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .portfolio img {
+    float: right;
+    max-width: 500px;
+  }
+}
