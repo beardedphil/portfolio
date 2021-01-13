@@ -65,8 +65,6 @@ const HireMe = () => {
                     <div className="email-form">
                         <label htmlFor="name">Name:</label>
                         <input type="text" name="name" value={name} onChange={e => setName(e.target.value)}/>
-                        <label htmlFor="company">Company:</label>
-                        <input type="text" name="company" value={company} onChange={e => setCompany(e.target.value)}/>
                         <label htmlFor="email">Email:</label>
                         <input type="email" name="email" value={email} onChange={e => setEmail(e.target.value)}/>
                         <label htmlFor="subject">Subject:</label>
