@@ -1,0 +1,58 @@
+.hero {
+  background: #161D27;
+  color: #E5E5E5;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.meet {
+  display: flex;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #F46036;
+  width: 130px;
+
+  span {
+    margin-top: 1em;
+    margin-right: .5em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+
+    .content {
+      background: #161D27;
+      padding: 6em 8em 6em 4em;
+      text-align: left;
+
+      h1 {
+        font-size: 3em;
+        line-height: 1.2em;
+      }
+    }
+  }
+
+  .meet {
+    margin: unset;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .hero .content {
+    padding: 6em 8em 6em 10em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .hero .content {
+    padding: 9em 20em 6em 20em;
+  }
+}
