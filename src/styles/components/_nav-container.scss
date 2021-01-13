@@ -1,0 +1,38 @@
+.nav-container {
+  background: $green;
+
+  a {
+    color: $charcoal;
+  }
+
+  header, footer {
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+
+      .logo {
+        color: $charcoal;
+        font-weight: bold;
+        font-size: $large;
+        padding-top: 7.5px;
+      }
+
+      .hire-me {
+        background: $charcoal;
+        color: $orange;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .nav-container {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+  }
+}
